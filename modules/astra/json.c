@@ -501,7 +501,7 @@ static int json_load(lua_State *L)
             skip = 0;
             break;
         }
-        skip += sb.st_size;
+        skip += r;
     }
 
     const int top = lua_gettop(L);
