@@ -3,11 +3,13 @@ modules/redirect.c \
 modules/static.c \
 modules/websocket.c \
 modules/upstream.c \
-modules/downstream.c"
+modules/downstream.c \
+modules/hls.c"
 
 MODULES="http_server http_request \
 http_redirect \
 http_static \
 http_websocket \
 http_upstream \
-http_downstream"
+http_downstream \
+http_hls"
